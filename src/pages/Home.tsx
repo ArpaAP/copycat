@@ -9,12 +9,12 @@ const Home: React.FC = () => {
           <div className="flex gap-3 items-center h-12 mb-5">
             <input
               type="text"
-              className="w-full outline-none bg-zinc-900 px-3 py-2 text-2xl font-semibold placeholder:text-zinc-600 h-full rounded-lg"
+              className="w-full outline-none bg-zinc-900 px-4 py-2 text-2xl font-semibold placeholder:text-zinc-600 h-full rounded-lg shadow-lg"
               placeholder="의상 또는 연예인 검색"
             />
             <button
               type="button"
-              className="h-full whitespace-nowrap my-auto bg-zinc-900 px-4 text-lg font-semibold rounded-lg hover:bg-zinc-700 transition-all"
+              className="h-full whitespace-nowrap my-auto bg-zinc-900 px-4 text-lg font-semibold rounded-lg hover:bg-zinc-700 transition-all shadow-lg"
             >
               <FontAwesomeIcon icon={faSearch} className="mr-2" />
               검색하기
