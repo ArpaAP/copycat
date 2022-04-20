@@ -1,6 +1,6 @@
 const Navbar: React.FC = () => {
   return (
-    <div className="p-3 bg-zinc-900 shadow-xl sticky" style={{ zIndex: 9999 }}>
+    <div className="p-3 bg-zinc-900 shadow-xl sticky top-0" style={{ zIndex: 9999 }}>
       <nav className="flex items-center text-white">
         <a href="/">
           <img

@@ -14,7 +14,7 @@ const Home: React.FC = () => {
             />
             <button
               type="button"
-              className="h-full whitespace-nowrap my-auto bg-zinc-900 px-4 text-lg font-semibold rounded-lg hover:bg-zinc-700 transition-all shadow-lg"
+              className="h-full whitespace-nowrap my-auto bg-zinc-900 px-4 text-lg font-semibold rounded-lg hover:bg-zinc-700 transition-color shadow-lg duration-300"
             >
               <FontAwesomeIcon icon={faSearch} className="mr-2" />
               검색하기
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
           <div className="flex gap-3 flex-wrap">
             <button
               type="button"
-              className="px-3 py-2 bg-zinc-900 rounded-lg text-lg font-semibold shadow-lg fadeInUp hover:bg-zinc-700 transition-all"
+              className="px-3 py-2 bg-zinc-900 rounded-lg text-lg font-semibold shadow-lg fadeInUp hover:bg-zinc-700 transition-color duration-300"
               style={{ animationDelay: "0" }}
             >
               <FontAwesomeIcon icon={faShirt} className="mr-2" />
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
             {Array.from(Array(9).keys()).map((i) => (
               <button
                 type="button"
-                className="px-3 py-2 bg-zinc-900 rounded-lg text-lg font-semibold shadow-lg fadeInUp hover:bg-zinc-700 transition-all"
+                className="px-3 py-2 bg-zinc-900 rounded-lg text-lg font-semibold shadow-lg fadeInUp hover:bg-zinc-700 transition-color duration-300"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
                 <FontAwesomeIcon icon={faSocks} className="mr-2" />
