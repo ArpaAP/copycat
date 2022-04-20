@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Home: React.FC = () => {
   return (
     <>
-      <div className="bg-zinc-800 py-20">
+      <div className="py-20">
         <div className="container mx-auto lg:px-28">
           <div className="flex gap-3 items-center h-12 mb-5">
             <input
