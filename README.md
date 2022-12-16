@@ -1,1 +1,1 @@
-# smart-mirror
+# copycat
